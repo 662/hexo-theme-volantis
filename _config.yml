@@ -79,15 +79,15 @@ style:
     site: "#fefefe" # Website background color
     site_inner: "#002329" # Text color inside the website background
     site_footer: "#000" # Footer text color inside the website background
-    card: "rgba(0,0,0,0.1)" # Card background color
+    card: "rgba(0,0,0,0.3)" # Card background color
     text: "#fff" # The color of the text on the card.
     theme: "#13c2c2" # Main color
     link: "#13c2c2" # Link color
     hover: "#b5f5ec" # Link highlight color
     inner: "#999" # Text color inside the button
-    block: "rgba(0,0,0,0.2)" # Block color
-    inlinecode: "rgba(0,0,0,0.2)" # Inline code color
-    codeblock: "rgba(0,0,0,0.2)" # Codeblock color
+    block: "rgba(0,0,0,0.3)" # Block color
+    inlinecode: "rgba(0,0,0,0.3)" # Inline code color
+    codeblock: "rgba(0,0,0,0.3)" # Codeblock color
     p: "#ddd" # Paragraph color
   # color:
   #   site: "#fefefe" # Website background color
@@ -155,7 +155,7 @@ navbar:
     # - name: About
     #   icon: fas fa-info-circle
     #   url: about/
-    - name: 
+    - name: Music
       icon: fas fa-compact-disc
   search: Search # Search bar placeholder
 
@@ -279,7 +279,7 @@ widget:
   # blogger info widget
   blogger:
     class: blogger
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
     shape: rectangle # circle, rectangle
     url: /about/
@@ -291,7 +291,7 @@ widget:
   # toc widget (valid only in articles)
   toc:
     class: toc
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     header:
       icon: fas fa-list
       title: 文章目录
@@ -311,7 +311,7 @@ widget:
   # tagcloud widget
   tagcloud:
     class: tagcloud
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     header:
       icon: fas fa-tags
       title: Tags
@@ -325,7 +325,7 @@ widget:
   # related posts widget
   related_posts:
     class: related_posts # npm i -S hexo-related-popular-posts
-    display: [desktop, mobile] # [desktop, mobile]
+    display: [desktop] # [desktop, mobile]
     header:
       icon: fas fa-bookmark
       title: Related posts
