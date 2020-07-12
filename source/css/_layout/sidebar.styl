@@ -288,6 +288,12 @@
           @media screen and (max-width: $device-mobile-m)
             width: "calc(100%/3 - 0 * %s)" % $gap
 
+  &.category
+    .content
+      a
+        font-size: $fontsize-list !important;
+
+
 
   &.tagcloud
     .content
@@ -297,9 +303,11 @@
         display: inline-block
         trans()
         line-height: 1.6em
+        font-size: $fontsize-list !important;
+        color: rgba(255,255,255,0.8) !important;
         &:hover
           color: $color-hover !important //to cover inline style.
-          text-decoration: underline
+          text-decoration: none
 
 
 

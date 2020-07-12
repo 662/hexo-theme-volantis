@@ -43,7 +43,7 @@ style:
     searchbar: 4px
     button: 2px
   fontsize:
-    root: 16px
+    root: 14px
     h1: 1.625rem
     h2: 1.375rem
     h3: 1.25rem
