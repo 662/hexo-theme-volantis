@@ -196,7 +196,7 @@ meta:
   title: # 暂无配置
   # 默认文章作者（可在front-matter中覆盖）
   author:
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+    avatar: https://cdn.jsdelivr.net/gh/662/cdn-blog/avatar/avatar.png
     name: 662
     url: https://baiyezi.com
   # 文章创建日期
