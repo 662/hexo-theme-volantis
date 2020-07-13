@@ -8,7 +8,6 @@
   height: $navbar-height
   background: $color-card
   box-shadow: $boxshadow-card
-  border-bottom: 1px solid #000;
   &.hide
     transform: translateY(100px) scale(0)
   &.show
@@ -206,6 +205,7 @@ ul.nav-list-h
     position: relative
     justify-content: center
     >a
+      font-size: $fontsize-body
       height: 100%
       line-height: $navbar-height
       border-bottom: $border-line solid transparent
@@ -275,7 +275,7 @@ ul.list-v
   .menu
     >ul>li>a
       display: block
-      padding: 0 8px
+      padding: 0 16px
       >i
         margin-right: 4px
 

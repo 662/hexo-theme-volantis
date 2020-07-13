@@ -23,21 +23,21 @@
     right: $gap*2
     transform: translateY(100px) scale(0)
     transform-origin: bottom
-    color: $color-text
+    color: #fff
     @media screen and (max-width: $device-tablet)
       right: $gap
     &.show
       transform: translateY(0) scale(1)
       &.hl
         background: $color-theme
-        color: $color-inner
+        color: #fff
         box-shadow: $boxshadow-card
     @media screen and (min-width: $device-tablet)
       &:hover
         transform: scale(1.2)
         border-radius: 25%
-        background: $color-theme
-        color: white
+        background: rgba(255,255,255,.2)
+        color: #fff
         box-shadow: $boxshadow-card-float
         &.hl
           box-shadow: $boxshadow-card-float

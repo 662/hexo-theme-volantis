@@ -10,11 +10,11 @@ style:
   navbar:
     height: 64px
     width: auto # auto, max
-    effect: [blur] # [shadow, floatable, blur]
+    effect: [blur, shadow] # [shadow, floatable, blur]
   sidebar:
-    effect: [blur] # [shadow, floatable, blur]
+    effect: [blur, shadow] # [shadow, floatable, blur]
   body:
-    effect: [blur] # [shadow, floatable, blur]
+    effect: [blur, shadow] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       copy_btn: true
@@ -43,18 +43,30 @@ style:
     searchbar: 4px
     button: 2px
   fontsize:
-    root: 14px
+    root: 16px
     h1: 1.625rem
     h2: 1.375rem
     h3: 1.25rem
     h4: 1.125rem
     h5: 1rem
     h6: 1rem
-    body: 1rem
-    list: .9375rem
-    meta: .875rem
-    code: .8125rem
+    body: .875rem
+    list: .875rem
+    meta: .75rem
+    code: .75rem
     footnote: .75rem
+    # root: 16px
+    # h1: 1.625rem
+    # h2: 1.375rem
+    # h3: 1.25rem
+    # h4: 1.125rem
+    # h5: 1rem
+    # h6: 1rem
+    # body: 1rem
+    # list: .9375rem
+    # meta: .875rem
+    # code: .8125rem
+    # footnote: .75rem
   fontfamily:
     logofont:
       fontfamily: '"Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
@@ -79,16 +91,16 @@ style:
     site: "#fefefe" # Website background color
     site_inner: "#002329" # Text color inside the website background
     site_footer: "#000" # Footer text color inside the website background
-    card: "rgba(0,0,0,0.3)" # Card background color
-    text: "#fff" # The color of the text on the card.
-    theme: "#13c2c2" # Main color
-    link: "#13c2c2" # Link color
-    hover: "#b5f5ec" # Link highlight color
-    inner: "#999" # Text color inside the button
-    block: "rgba(0,0,0,0.3)" # Block color
-    inlinecode: "rgba(0,0,0,0.3)" # Inline code color
-    codeblock: "rgba(0,0,0,0.3)" # Codeblock color
-    p: "#ddd" # Paragraph color
+    card: "rgba(255,255,255,0.4)" # Card background color
+    text: "#333" # The color of the text on the card.
+    theme: "#006d75" # Main color
+    link: "#006d75" # Link color
+    hover: "#f5222d" # Link highlight color
+    inner: "#666" # Text color inside the button
+    block: "rgba(255,255,255,0.4)" # Block color
+    inlinecode: "rgba(255,255,255,0.4)" # Inline code color
+    codeblock: "rgba(255,255,255,0.4)" # Codeblock color
+    p: "#666" # Paragraph color
   # color:
   #   site: "#fefefe" # Website background color
   #   site_inner: "#002329" # Text color inside the website background
@@ -507,16 +519,16 @@ plugins:
 comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle: 富强、民主、文明、和谐，自由、平等、公正、法治，爱国、敬业、诚信、友善
-  service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso
+  service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso
   # Valine
   # https://valine.js.org/
   valine: # 请将 appId appKey 修改为自己的，否则评论数据是共享的。
-    appId: dogUA2FSKGTo029M1SEwGROT-MdYXbMMI # your appId
-    appKey: u0NdtQ8nvHoMdJPSYqm1LRxE # your appKey
+    appId: ucWNS4NlYCNISzQAtqfbufLV-gzGzoHsz # your appId
+    appKey: Kt0grqz2VwV16xafghJtqdpr # your appKey
     # js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
     path: # All pages use the same path (share the same comments data)
     meta: nick,mail,link # valine comment header info
-    requiredFields: ["nick", "mail"]
+    requiredFields: ["nick"]
     enableQQ: true # Unstable avatar link
     placeholder: 快来评论吧~ # valine comment input placeholder(like: Please leave your footprints )
     avatar: robohash # gravatar style https://valine.js.org/avatar
