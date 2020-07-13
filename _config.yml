@@ -280,7 +280,7 @@ widget:
   blogger:
     class: blogger
     display: [desktop] # [desktop, mobile]
-    avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
+    avatar: https://cdn.jsdelivr.net/gh/662/cdn-blog/avatar/avatar.png
     shape: rectangle # circle, rectangle
     url: /about/
     title:
